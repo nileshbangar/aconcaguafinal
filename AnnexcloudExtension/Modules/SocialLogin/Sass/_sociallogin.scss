@@ -1,0 +1,47 @@
+.tooltip1 {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+	    width: 157px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.tooltip1 .tooltiptext {
+    visibility: visible;
+    width: 600px;
+    background-color: white;
+    color: #6699CC;
+    text-align: justify;
+    border-radius: 6px;
+    border-color: #CC5052;
+    border-style: solid;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+} 
+div#show_provider {
+	max-width: 675px;
+    margin: 20px auto;
+    width: 100%;
+}
+div#show_provider_outer {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    background-color: #f1f8fa;
+}
+#or_span h1 { text-align:center;   margin-top: 15px; }
+
+@media only screen and (max-width: 767px)  {
+div#show_provider {      max-width: 165px;   height: 145px; }
+.tooltip1 .tooltiptext p {     padding: 0 10px; }
+.tooltip1 .tooltiptext { width: 300px; }
+div#show_provider_outer { height: 245px; }
+}
+@media only screen and (max-width: 479px)  { 
+.tooltip1 .tooltiptext { width: 230px; }
+}
